@@ -1,6 +1,5 @@
 body {
     color: #000;
-    font-size: 14px;
     line-height: 1.4;
     font-family: 'Roboto Slab', sans-serif;
 }
@@ -66,12 +65,11 @@ body {
     text-align:center;
 }
 
-.eucharist{
-    margin: 100px auto 0 auto;
-    text-align: justify;
-    text-align:center;
-    text-justify:inter-word;
-    font-size: 24px;
+.eucharist .video{
+    width:30%;
+    margin: 200px auto 0 auto;
+    font-size: 32px;
+    font-weight:300;
     
 }
 
@@ -122,6 +120,7 @@ body {
 
 .vessel-column{
     display:flex;
+    
 }
 
 
@@ -130,14 +129,14 @@ body {
 }
 
 
-.text-animate{
-    font: white;
-    transition-duration: 3s;
+
+p.text-animate{
+    font:white;
+    transition-duration: 2s;
     transition-timing-function: linear; 
 }
 
-.text-animate :hover{
+p:hover{
    
-    font-size:30px;
     color:black;
 }
