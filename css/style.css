@@ -62,11 +62,12 @@ body {
 
 .center{
     text-align:center;
+    margin:auto;
 }
 
 .eucharist .video{
     width:30%;
-    margin: 200px auto 0 auto;
+    margin: auto;
     font-size: 32px;
     font-weight:300;
     
@@ -74,12 +75,16 @@ body {
 
 
 
-.sacred-box{
+.sacred-vessels{
     width: 100%;
-    height:1500px;
+    height:850px;
     margin:0px;
-   
-    
+      
+}
+
+.sacred-margin{
+    margin-bottom:50px;
+    text-align: center;
 }
 
 .img-size{
@@ -110,15 +115,6 @@ body {
 }
 
 
-
-.cib{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:8px;
-    max-height:200px; 
-    max-width:300px;
-}
 
 
 .row1 {
@@ -151,12 +147,26 @@ body {
     width: 100%;
 }
 
+.cib-box{
+    height:250px;
+    width:25%;
+}
+
+.cib{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:8px;
+    max-height:100px; 
+    max-width:200px;
+}
 .cib-text{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-height:200px; 
-    max-width:300px;
+    height:200px;
+    width:25%;
+  
     text-align: justify;
 }
 
@@ -166,16 +176,28 @@ body {
     margin-right: auto;
     margin-top:50px;
     max-height:100px; 
-    max-width:300px;
+    max-width:200px;
+}
+
+.pat-box{
+    height:250px;
+    width:25%;
 }
 
 .pat-text{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-height:200px; 
-    max-width:300px;
+    height:200px;
+    width:25%;
+    /* max-height:200px; 
+    max-width:300px; */
     text-align: justify;
+}
+
+.cru-box{
+    height:250px;
+    width:25%;
 }
 
 .cruets{
@@ -187,19 +209,29 @@ body {
     max-width:130px;
 }
 
+.cha-box{
+    height:250px;
+    width:25%;
+}
+
 .cha{
     display: block;
     margin-left: auto;
     margin-right: 50px;
     margin-top:8px;
-    max-height:200px; 
-    max-width:300px;
+    max-height:100px; 
+    max-width:200px;
+}
+
+.lav-box{
+    height:250px;
+    width:25%;
 }
 
 .lav{
     display: block;
-    margin-right:50px;
-    margin-left:200px;
+    margin: auto;
+   
     max-height:100px; 
     max-width:200px;
 }
@@ -211,21 +243,98 @@ body {
     text-align: justify;
 }
 
+
+.sacred-lin-box{
+    width: 100%;
+    height:1200px;
+    margin:0px;
+      
+}
+
+.corp-box{
+    height:300px;
+    width:30%;
+}
+
+
 .corp{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top:50px;
-    max-height:400px; 
-    max-width:300px;
+    max-height:300px; 
+    max-width:200px;
 }
 
-.lin{
+.corp-text{
+    display:block;
+    height:200px;
+    width:35%;
+    text-align: justify;
+}
+
+.pall{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-height:50px; 
+    margin-top:50px;
+    max-height:200px; 
     max-width:100px;
+}
+
+.pall-box{
+    height:200px;
+    width:25%;
+}
+
+.pall-text{
+    display:block;
+    height:200px;
+    width:25%;
+    text-align: justify;
+}
+
+.fin-box{
+    height:300px;
+    width:30%;
+}
+
+.finger{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    max-height:200px; 
+    max-width:100px;
+}
+
+.fin-text{
+    display:block;
+    height:200px;
+    width:25%;
+    text-align: justify;
+}
+
+
+.pure-box{
+    height:300px;
+    width:30%;
+}
+
+.puri{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    max-height:200px; 
+    max-width:100px;
+}
+
+.puri-text{
+    display:block;
+    height:200px;
+    width:25%;
+    text-align: justify;
 }
 
 /* p.text-animate{
